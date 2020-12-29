@@ -17,12 +17,14 @@ for information on how we do:
 
 ### Development Environment Setup
 
+You need python3.6 or 3.7 and `virtualenv`.
+
 You can set up your dev environment with:
 
 ```sh
-git clone git@github.com:davesque/vyper-parser.git
+git clone git@github.com:gihyeonsung/vyper-parser.git
 cd vyper-parser
-virtualenv -p python3 venv
+virtualenv -p python3.7 venv
 . venv/bin/activate
 pip install -e .[dev]
 ```
